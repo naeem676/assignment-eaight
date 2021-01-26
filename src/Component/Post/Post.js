@@ -46,11 +46,7 @@ const Post = (props) => {
           Learn More
         </Button>
         </Link>
-        <Link to={`/${id}/comments`}>
-        <Button size="small" color="primary">
-          Comments
-        </Button>
-        </Link>
+        
       </CardActions>
     </Card>
     );
